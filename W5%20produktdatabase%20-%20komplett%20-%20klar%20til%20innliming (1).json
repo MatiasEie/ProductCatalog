@@ -1,0 +1,683 @@
+{
+  "schemaVersion": "1.2",
+  "catalog": {
+    "title": "Utstyr",
+    "wizardUrl": "/no_NO/hvilket-utstyr-har-jeg",
+    "labelGuideUrl": "/no_NO/hvilket-utstyr-har-jeg",
+    "note": "Kundevennlig eksempelregister. Serienummer, revisjoner og eldre produkter er utelatt. Alle produkter har feltene compositionLabel, consistsOf og compositionNote. Består av-seksjonen vises bare når consistsOf inneholder minst ett produkt."
+  },
+  "categories": [
+    {
+      "id": "targets",
+      "label": "Skiver",
+      "icon": "fas fa-bullseye"
+    },
+    {
+      "id": "cabinets",
+      "label": "Skap og eHub",
+      "icon": "fas fa-server"
+    },
+    {
+      "id": "network",
+      "label": "Antenner og nettverk",
+      "icon": "fas fa-broadcast-tower"
+    },
+    {
+      "id": "monitors",
+      "label": "Monitorer",
+      "icon": "fas fa-tablet-alt"
+    },
+    {
+      "id": "accessories",
+      "label": "Tilbehør",
+      "icon": "fas fa-toolbox"
+    }
+  ],
+  "products": [
+    {
+      "id": "opticscore",
+      "name": "OpticScore",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "Optisk",
+      "environment": [
+        "indoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Eksempelpost for den optiske innendørsskiven. Erstatt teksten med kontrollert produktbeskrivelse.",
+      "features": [
+        "Optisk",
+        "Innendørs"
+      ],
+      "icon": "fas fa-crosshairs",
+      "image": "",
+      "imageAlt": "Produktbilde av OpticScore",
+      "labelHint": "Vis med bilde hvor produktnavnet står på skiven.",
+      "identification": [
+        "Produktnavnet på merkelappen er den sikreste identifikasjonen.",
+        "Legg inn tydelige bilder av front, bakside og merkelapp."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-nettverket.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Produktoversikt",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Installasjon",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Feilsøking",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "ehub",
+        "monitor-antenna"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h4d",
+      "name": "H4D",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [
+        "pistol"
+      ],
+      "summary": "Eksempelpost for pistolskiven H4D, som kan brukes både inne og ute.",
+      "features": [
+        "H-skive",
+        "Pistol",
+        "Inne/ute"
+      ],
+      "icon": "fas fa-bullseye",
+      "image": "",
+      "imageAlt": "Produktbilde av H4D",
+      "labelHint": "Første bokstav i produktnavnet viser at dette er en H-skive.",
+      "identification": [
+        "Se etter produktnavnet H4D på merkelappen.",
+        "Bruk faktiske produktbilder for å skille den fra andre modeller."
+      ],
+      "systemRole": "Elektronisk pistolskive som sender treffdata videre i anlegget.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Produktoversikt",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Brukerveiledning",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "ehub",
+        "cabinet-switch"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h4a",
+      "name": "H4A",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Eksempelpost. Produktnavnet begynner med H og plasserer skiven i H-familien.",
+      "features": [
+        "H-skive",
+        "Utendørs"
+      ],
+      "icon": "fas fa-bullseye",
+      "image": "",
+      "imageAlt": "Produktbilde av H4A",
+      "labelHint": "Se etter H4A på merkelappen. Legg inn bilde av etikettens plassering.",
+      "identification": [
+        "Første bokstav H angir H-familien.",
+        "Andre tegn i navnet må forklares i den endelige produktteksten."
+      ],
+      "systemRole": "Akustisk skive som registrerer treff og kommuniserer over standard IP-nettverk.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Dokumentasjon",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "cabinet-switch",
+        "ehub"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u6a",
+      "name": "U6A",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Eksempelpost. Produktnavnet begynner med U og plasserer skiven i U-familien.",
+      "features": [
+        "U-skive",
+        "Utendørs"
+      ],
+      "icon": "fas fa-bullseye",
+      "image": "",
+      "imageAlt": "Produktbilde av U6A",
+      "labelHint": "Se etter U6A på merkelappen. Vis også hvor etiketten normalt sitter.",
+      "identification": [
+        "Første bokstav U angir U-familien.",
+        "Bruk bilder og målbare kjennetegn for å skille modellen fra andre U-skiver."
+      ],
+      "systemRole": "Akustisk skive som registrerer treff og kommuniserer over standard IP-nettverk.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Dokumentasjon",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "cabinet-switch",
+        "ehub"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h4h",
+      "name": "H4H",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Eksempelpost for H4H. Erstatt med verifisert bruksområde og produktkjennetegn.",
+      "features": [
+        "H-skive"
+      ],
+      "icon": "fas fa-bullseye",
+      "image": "",
+      "imageAlt": "Produktbilde av H4H",
+      "labelHint": "Se etter H4H på skivens merkelapp.",
+      "identification": [
+        "Første bokstav H angir H-familien."
+      ],
+      "systemRole": "Skivekomponent i eScore-anlegget.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Dokumentasjon",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u4h",
+      "name": "U4H",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Eksempelpost for U4H. Erstatt med verifisert bruksområde og produktkjennetegn.",
+      "features": [
+        "U-skive"
+      ],
+      "icon": "fas fa-bullseye",
+      "image": "",
+      "imageAlt": "Produktbilde av U4H",
+      "labelHint": "Se etter U4H på skivens merkelapp.",
+      "identification": [
+        "Første bokstav U angir U-familien."
+      ],
+      "systemRole": "Skivekomponent i eScore-anlegget.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Dokumentasjon",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "ehub",
+      "name": "eHub",
+      "category": "cabinets",
+      "categoryLabel": "Skap og eHub",
+      "family": "Sentralenhet",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "eHub kjører browser UI og backend og fungerer som den sentrale enheten i anlegget.",
+      "features": [
+        "Sentralenhet",
+        "Web UI",
+        "Backend"
+      ],
+      "icon": "fas fa-server",
+      "image": "",
+      "imageAlt": "Produktbilde av eHub",
+      "labelHint": "Legg inn et bilde som viser hvor eHub-navnet står.",
+      "identification": [
+        "eHub er eHub; den har ikke flere kundevendte modellvarianter.",
+        "Vis hvordan kunden kjenner igjen selve enheten og plasseringen i skapet."
+      ],
+      "systemRole": "Sentralserver som kjører webgrensesnitt og backend. Kan være plassert i grav eller på standplass.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Oversikt",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Webgrensesnitt",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "cabinet-switch-ehub",
+        "monitor-antenna"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "cabinet-switch",
+      "name": "Skap med strømforsyning og switch",
+      "category": "cabinets",
+      "categoryLabel": "Skap og eHub",
+      "family": "Skap",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Skap med strømforsyning, nettverksswitch og Amphenol-utganger til skiver eller antenner.",
+      "features": [
+        "Strømforsyning",
+        "Switch",
+        "Amphenol"
+      ],
+      "icon": "fas fa-box",
+      "image": "",
+      "imageAlt": "Produktbilde av skap med switch",
+      "labelHint": "Vis utsiden, innsiden og plasseringen av skapets produktetikett.",
+      "identification": [
+        "Skapet inneholder strømforsyning og switch.",
+        "Det står ikke eHub i denne skapvarianten."
+      ],
+      "systemRole": "Fordeler strøm og nettverk til skiver og eventuelle antenner.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Installasjon",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "ehub"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "cabinet-switch-ehub",
+      "name": "Skap med strømforsyning, switch og eHub",
+      "category": "cabinets",
+      "categoryLabel": "Skap og eHub",
+      "family": "Skap",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Skapvariant der eHub er montert sammen med strømforsyning og switch.",
+      "features": [
+        "Strømforsyning",
+        "Switch",
+        "eHub"
+      ],
+      "icon": "fas fa-box-open",
+      "image": "",
+      "imageAlt": "Produktbilde av skap med switch og eHub",
+      "labelHint": "Vis hvordan kunden ser forskjell på skapet med og uten eHub.",
+      "identification": [
+        "eHub er synlig inne i skapet.",
+        "Skapet har Amphenol-utganger til skiver eller antenner."
+      ],
+      "systemRole": "Samler strøm, nettverk og sentralenheten eHub i grav.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Installasjon",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "ehub",
+        "monitor-antenna"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "monitor-antenna",
+      "name": "Monitor Antenna",
+      "category": "network",
+      "categoryLabel": "Antenner og nettverk",
+      "family": "Wi-Fi / antenne",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Eksempelpost for monitorantenner. Dere har flere typer; opprett én post per faktisk produktnavn.",
+      "features": [
+        "Wi-Fi",
+        "Standplass"
+      ],
+      "icon": "fas fa-wifi",
+      "image": "",
+      "imageAlt": "Produktbilde av Monitor Antenna",
+      "labelHint": "Vis modellnavn og etikettplassering for hver faktisk antennetype.",
+      "identification": [
+        "Noen varianter fungerer kun som hotspot.",
+        "Andre kan også ha omnidireksjonell linkfunksjon."
+      ],
+      "systemRole": "Oppretter trådløs forbindelse for monitorer og administrasjon av eHub via webgrensesnitt.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Nettverksoppsett",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "ehub"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "link-antenna-example",
+      "name": "Linkantenne – eksempelmodell",
+      "category": "network",
+      "categoryLabel": "Antenner og nettverk",
+      "family": "Linkantenne",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Eksempelpost. Bytt navnet og opprett én databasepost per faktisk antennemodell.",
+      "features": [
+        "Trådløs link",
+        "Grav/standplass"
+      ],
+      "icon": "fas fa-broadcast-tower",
+      "image": "",
+      "imageAlt": "Produktbilde av linkantenne",
+      "labelHint": "Legg inn bilde av produktet, kontaktene og merkelappen.",
+      "identification": [
+        "Bruk produktnavnet på merkelappen som kundens identifikator."
+      ],
+      "systemRole": "Danner trådløs link mellom grav og standplass.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Montering og oppsett",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "moving-target-cart-small",
+      "name": "Moving Target Cart – Small",
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "family": "Moving Target-vogn",
+      "environment": [],
+      "use": [],
+      "summary": "Eksempelpost for den mindre moving-target-vognen. Erstatt teksten med faktiske mål, bilder og produktinformasjon.",
+      "features": [
+        "Moving Target",
+        "Small",
+        "Vogn"
+      ],
+      "icon": "fas fa-truck-loading",
+      "image": "",
+      "imageAlt": "Produktbilde av liten Moving Target-vogn",
+      "labelHint": "Legg inn bilde av hele vognen, festet for skiven og eventuell merkelapp.",
+      "identification": [
+        "Vis hele vognen fra siden og forfra.",
+        "Dokumenter hvordan skiven monteres på vognen."
+      ],
+      "systemRole": "Mekanisk vogn som bærer den mindre Moving Target-skiven.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Montering",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Vedlikehold",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "h4a",
+        "moving-target-small"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "moving-target-cart-large",
+      "name": "Moving Target Cart – Large",
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "family": "Moving Target-vogn",
+      "environment": [],
+      "use": [],
+      "summary": "Eksempelpost for den større moving-target-vognen. Erstatt teksten med faktiske mål, bilder og produktinformasjon.",
+      "features": [
+        "Moving Target",
+        "Large",
+        "Vogn"
+      ],
+      "icon": "fas fa-truck-loading",
+      "image": "",
+      "imageAlt": "Produktbilde av stor Moving Target-vogn",
+      "labelHint": "Legg inn bilde av hele vognen, festet for skiven og eventuell merkelapp.",
+      "identification": [
+        "Vis hele vognen fra siden og forfra.",
+        "Dokumenter hvordan den større skiven monteres på vognen."
+      ],
+      "systemRole": "Mekanisk vogn som bærer den større Moving Target-skiven.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Montering",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Vedlikehold",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "u6a",
+        "moving-target-large"
+      ],
+      "demo": true,
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "moving-target-small",
+      "name": "Moving Target – Small",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "Moving Target",
+      "environment": [],
+      "use": [],
+      "summary": "Komplett eksempeloppsett for den mindre Moving Target-løsningen. Her er H4A brukt som foreløpig skivevalg.",
+      "features": [
+        "Moving Target",
+        "Small",
+        "Komplett løsning"
+      ],
+      "icon": "fas fa-running",
+      "image": "",
+      "imageAlt": "Produktbilde av Moving Target Small",
+      "labelHint": "Dokumenter både skiven og vognen. Skiven bør identifiseres fra produktnavnet på merkelappen.",
+      "identification": [
+        "Kontroller skivenavnet på merkelappen.",
+        "Sammenlign vognen med produktbildet for Small-varianten."
+      ],
+      "systemRole": "Moving-target-oppsett der en elektronisk skive er montert på den mindre vognen.",
+      "compositionLabel": "Består av",
+      "consistsOf": [
+        {
+          "productId": "moving-target-cart-small",
+          "label": "Moving Target Cart – Small",
+          "quantity": 1
+        },
+        {
+          "productId": "h4a",
+          "label": "H4A",
+          "quantity": 1
+        }
+      ],
+      "compositionNote": "H4A er et foreløpig eksempelvalg for den mindre vognen. Bekreft mot faktiske mål og festepunkter før publisering.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Produktoversikt",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Montering",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "moving-target-cart-small",
+        "h4a"
+      ],
+      "demo": true
+    },
+    {
+      "id": "moving-target-large",
+      "name": "Moving Target – Large",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "Moving Target",
+      "environment": [],
+      "use": [],
+      "summary": "Komplett eksempeloppsett for den større Moving Target-løsningen. Her er U6A brukt som foreløpig skivevalg.",
+      "features": [
+        "Moving Target",
+        "Large",
+        "Komplett løsning"
+      ],
+      "icon": "fas fa-running",
+      "image": "",
+      "imageAlt": "Produktbilde av Moving Target Large",
+      "labelHint": "Dokumenter både skiven og vognen. Skiven bør identifiseres fra produktnavnet på merkelappen.",
+      "identification": [
+        "Kontroller skivenavnet på merkelappen.",
+        "Sammenlign vognen med produktbildet for Large-varianten."
+      ],
+      "systemRole": "Moving-target-oppsett der en større elektronisk skive er montert på den større vognen.",
+      "compositionLabel": "Består av",
+      "consistsOf": [
+        {
+          "productId": "moving-target-cart-large",
+          "label": "Moving Target Cart – Large",
+          "quantity": 1
+        },
+        {
+          "productId": "u6a",
+          "label": "U6A",
+          "quantity": 1
+        }
+      ],
+      "compositionNote": "U6A er et foreløpig eksempelvalg for den større vognen. Bekreft mot faktiske mål og festepunkter før publisering.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Produktoversikt",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Montering",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "moving-target-cart-large",
+        "u6a"
+      ],
+      "demo": true
+    }
+  ]
+}
