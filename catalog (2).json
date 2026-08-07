@@ -1,0 +1,2275 @@
+{
+  "schemaVersion": "1.11",
+  "catalog": {
+    "title": "Utstyr",
+    "wizardUrl": "/no_NO/hvilket-utstyr-har-jeg",
+    "labelGuideUrl": "/no_NO/hvilket-utstyr-har-jeg",
+    "note": "Produktkatalog med relative bildestier. Demoillustrasjoner er merket med imageStatus: demo og kan erstattes med ekte produktfoto uten å endre JSON-strukturen. Alle produkter har nå compositionLabel, consistsOf og compositionNote. Består av vises bare når consistsOf inneholder produkter."
+  },
+  "categories": [
+    {
+      "id": "targets",
+      "label": "Skiver",
+      "icon": "fas fa-bullseye"
+    },
+    {
+      "id": "cabinets",
+      "label": "Skap og eHub",
+      "icon": "fas fa-server"
+    },
+    {
+      "id": "network",
+      "label": "Antenner og nettverk",
+      "icon": "fas fa-broadcast-tower"
+    },
+    {
+      "id": "monitors",
+      "label": "Monitorer",
+      "icon": "fas fa-tablet-alt"
+    },
+    {
+      "id": "accessories",
+      "label": "Tilbehør",
+      "icon": "fas fa-toolbox"
+    }
+  ],
+  "products": [
+    {
+      "id": "bia",
+      "name": "BIA",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "BIA",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive BIA i eScore-produktfamilien.",
+      "features": [
+        "BIA",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, må avklares"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av BIA",
+      "labelHint": "Se etter produktnavnet BIA på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet BIA er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h1e",
+      "name": "H1E",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H1E i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": true,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H1E",
+      "labelHint": "Se etter produktnavnet H1E på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H1E er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "moving-target-small"
+      ],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 100,
+        "max": 200
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [
+        {
+          "weapon": "rifle",
+          "caliber": "smallBore",
+          "recommendedMaxRange": 100,
+          "unit": "m",
+          "note": "Only recommended for small bore up to 100 m."
+        }
+      ],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 900,
+        "height": 900
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h2b",
+      "name": "H2B",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H2B i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": true,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H2B",
+      "labelHint": "Se etter produktnavnet H2B på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H2B er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 50,
+        "max": 100
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1500,
+        "height": 850
+      },
+      "modelYear": 2025,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h2e",
+      "name": "H2E",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H2E i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": true,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H2E",
+      "labelHint": "Se etter produktnavnet H2E på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H2E er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 100,
+        "max": 200
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [
+        {
+          "weapon": "rifle",
+          "caliber": "smallBore",
+          "recommendedMaxRange": 100,
+          "unit": "m",
+          "note": "Only recommended for small bore up to 100 m."
+        }
+      ],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1000,
+        "height": 1200
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h3a",
+      "name": "H3A",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H3A i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": true,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H3A",
+      "labelHint": "Se etter produktnavnet H3A på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H3A er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 100,
+        "max": 300
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [
+        {
+          "weapon": "rifle",
+          "caliber": "smallBore",
+          "recommendedMaxRange": 100,
+          "unit": "m",
+          "note": "Only recommended for small bore up to 100 m."
+        }
+      ],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1150,
+        "height": 1200
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h3b",
+      "name": "H3B",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H3B i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H3B",
+      "labelHint": "Se etter produktnavnet H3B på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H3B er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h3e",
+      "name": "H3E",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H3E i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H3E",
+      "labelHint": "Se etter produktnavnet H3E på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H3E er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h3h",
+      "name": "H3H",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H3H i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H3H",
+      "labelHint": "Se etter produktnavnet H3H på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H3H er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h4a",
+      "name": "H4A",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H4A i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H4A",
+      "labelHint": "Se etter produktnavnet H4A på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H4A er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h4d",
+      "name": "H4D",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [
+        "pistol"
+      ],
+      "summary": "Skive H4D i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Inne/ute",
+        "Pistol",
+        "Ikke luftvåpen"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": true,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": true,
+          "bigBore": true
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/H4D Marine Side.webp",
+      "imageAlt": "Produktbilde av H4D",
+      "labelHint": "Se etter produktnavnet H4D på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H4D er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 25,
+        "max": 50
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 515,
+        "height": 515
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "h4h",
+      "name": "H4H",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "H-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive H4H i eScore-produktfamilien.",
+      "features": [
+        "H-skive",
+        "Utendørs",
+        "Rifle",
+        ".22 / grovere, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": false,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av H4H",
+      "labelHint": "Se etter produktnavnet H4H på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet H4H er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 300,
+        "max": 1000
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1600,
+        "height": 1600
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "opticscore",
+      "name": "OpticScore",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "Optisk",
+      "environment": [
+        "indoor"
+      ],
+      "use": [
+        "rifle",
+        "pistol"
+      ],
+      "summary": "Skive OpticScore i eScore-produktfamilien.",
+      "features": [
+        "Optisk",
+        "Innendørs",
+        "Pistol og rifle",
+        "Luft / opptil .22"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": true,
+        "rifle": {
+          "smallBore": true,
+          "bigBore": false,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-crosshairs",
+      "image": "images/targets/OpticScore Marine Front.webp",
+      "imageAlt": "Produktbilde av OpticScore",
+      "labelHint": "Se etter produktnavnet OpticScore på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet OpticScore er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 10,
+        "max": 15
+      },
+      "technology": "optical",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 170,
+        "height": 170
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u3b",
+      "name": "U3B",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive U3B i eScore-produktfamilien.",
+      "features": [
+        "U-skive",
+        "Utendørs",
+        "Rifle",
+        "Grovere enn .22, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av U3B",
+      "labelHint": "Se etter produktnavnet U3B på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet U3B er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u4b",
+      "name": "U4B",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive U4B i eScore-produktfamilien.",
+      "features": [
+        "U-skive",
+        "Utendørs",
+        "Rifle",
+        "Grovere enn .22, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av U4B",
+      "labelHint": "Se etter produktnavnet U4B på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet U4B er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u4h",
+      "name": "U4H",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive U4H i eScore-produktfamilien.",
+      "features": [
+        "U-skive",
+        "Utendørs",
+        "Rifle",
+        "Grovere enn .22, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": false,
+          "bigBore": true,
+          "caliber50": true
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av U4H",
+      "labelHint": "Se etter produktnavnet U4H på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet U4H er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "moving-target-large"
+      ],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 300,
+        "max": 1000
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1600,
+        "height": 1600
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u5a",
+      "name": "U5A",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive U5A i eScore-produktfamilien.",
+      "features": [
+        "U-skive",
+        "Utendørs",
+        "Rifle",
+        "Grovere enn .22, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": false,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av U5A",
+      "labelHint": "Se etter produktnavnet U5A på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet U5A er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 100,
+        "max": 300
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1150,
+        "height": 1200
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u5b",
+      "name": "U5B",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive U5B i eScore-produktfamilien.",
+      "features": [
+        "U-skive",
+        "Utendørs",
+        "Rifle",
+        "Grovere enn .22, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": null,
+        "rifle": {
+          "smallBore": null,
+          "bigBore": null,
+          "caliber50": null
+        },
+        "pistol": {
+          "smallBore": null,
+          "bigBore": null
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av U5B",
+      "labelHint": "Se etter produktnavnet U5B på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet U5B er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-incomplete",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": null,
+        "max": null
+      },
+      "technology": null,
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": null,
+        "height": null
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u6b",
+      "name": "U6B",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Skive U6B i eScore-produktfamilien.",
+      "features": [
+        "U-skive",
+        "Utendørs",
+        "Rifle",
+        "Grovere enn .22, avhengig av konfigurasjon"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": false,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av U6B",
+      "labelHint": "Se etter produktnavnet U6B på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet U6B er hovedidentifikatoren.",
+        "Kontroller varenummer og eventuell variant mot merkingen på produktet."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 200,
+        "max": 600
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1300,
+        "height": 1400
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "ehub",
+      "name": "eHub",
+      "category": "cabinets",
+      "categoryLabel": "Skap og eHub",
+      "family": "Sentralenhet",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "eHub kjører browser UI og backend og fungerer som den sentrale enheten i anlegget.",
+      "features": [
+        "Sentralenhet",
+        "Web UI",
+        "Backend"
+      ],
+      "icon": "fas fa-server",
+      "image": "images/misc/ehub.webp",
+      "imageAlt": "Produktbilde av eHub",
+      "labelHint": "Legg inn et bilde som viser hvor eHub-navnet står.",
+      "identification": [
+        "eHub er eHub; den har ikke flere kundevendte modellvarianter.",
+        "Vis hvordan kunden kjenner igjen selve enheten og plasseringen i skapet."
+      ],
+      "systemRole": "Sentralserver som kjører webgrensesnitt og backend. Kan være plassert i grav eller på standplass.",
+      "detailsUrl": "SETT_INN_ARTIKKEL_URL_HER",
+      "documents": [
+        {
+          "label": "Oversikt",
+          "url": "SETT_INN_URL_HER"
+        },
+        {
+          "label": "Webgrensesnitt",
+          "url": "SETT_INN_URL_HER"
+        }
+      ],
+      "related": [
+        "ehub-cabinet"
+      ],
+      "demo": true,
+      "itemNumber": "",
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "switch-cabinet",
+      "name": "Switch Cabinet",
+      "itemNumber": "",
+      "category": "cabinets",
+      "categoryLabel": "Skap og eHub",
+      "family": "Cabinet",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Skap med strømforsyning og nettverksswitch.",
+      "features": [
+        "Power supply",
+        "Switch"
+      ],
+      "cabinetData": {
+        "powerSupply": true,
+        "networkSwitch": true,
+        "eHub": false
+      },
+      "icon": "fas fa-box",
+      "image": "images/cabinets/switch-cabinet.webp",
+      "imageAlt": "Produktbilde av Switch Cabinet",
+      "labelHint": "Kontroller produktnavn og merking på skapet.",
+      "identification": [
+        "Skapet inneholder strømforsyning og nettverksswitch.",
+        "Denne skapvarianten inneholder ikke eHub."
+      ],
+      "systemRole": "Fordeler strøm og nettverk til utstyr i eScore-anlegget.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "demo": false,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "ehub-cabinet",
+      "name": "eHub Cabinet",
+      "itemNumber": "",
+      "category": "cabinets",
+      "categoryLabel": "Skap og eHub",
+      "family": "Cabinet",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Skap med strømforsyning, nettverksswitch og eHub.",
+      "features": [
+        "Power supply",
+        "Switch",
+        "eHub"
+      ],
+      "cabinetData": {
+        "powerSupply": true,
+        "networkSwitch": true,
+        "eHub": true
+      },
+      "icon": "fas fa-box-open",
+      "image": "images/cabinets/ehub-cabinet.webp",
+      "imageAlt": "Produktbilde av eHub Cabinet",
+      "labelHint": "Kontroller produktnavn og merking på skapet.",
+      "identification": [
+        "Skapet er fysisk likt Switch Cabinet.",
+        "Skapet inneholder strømforsyning og nettverksswitch.",
+        "Denne skapvarianten inneholder i tillegg eHub."
+      ],
+      "systemRole": "Samler strømforsyning, nettverksswitch og eHub i ett skap.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "ehub"
+      ],
+      "demo": false,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "target-line-link-antenna",
+      "name": "Target Line Link Antenna",
+      "itemNumber": "",
+      "category": "network",
+      "categoryLabel": "Antenner og nettverk",
+      "family": "Link Antenna",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Linkantenne for target line.",
+      "features": [
+        "Link antenna",
+        "Target line",
+        "Outdoor"
+      ],
+      "antennaData": {
+        "type": "link",
+        "installationArea": "targetLine"
+      },
+      "icon": "fas fa-broadcast-tower",
+      "image": "images/antennas/target-line-link-antenna.webp",
+      "imageAlt": "Produktbilde av Target Line Link Antenna",
+      "labelHint": "Kontroller produktnavn og merking på antennen.",
+      "identification": [
+        "Produktnavnet Target Line Link Antenna er hovedidentifikatoren."
+      ],
+      "systemRole": "Linkantenne plassert ved target line.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "firing-line-link-antenna"
+      ],
+      "demo": false,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "firing-line-link-antenna",
+      "name": "Firing Line Link Antenna",
+      "itemNumber": "",
+      "category": "network",
+      "categoryLabel": "Antenner og nettverk",
+      "family": "Link Antenna",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Linkantenne for firing line.",
+      "features": [
+        "Link antenna",
+        "Firing line",
+        "Outdoor"
+      ],
+      "antennaData": {
+        "type": "link",
+        "installationArea": "firingLine"
+      },
+      "icon": "fas fa-broadcast-tower",
+      "image": "images/antennas/firing-line-link-antenna.webp",
+      "imageAlt": "Produktbilde av Firing Line Link Antenna",
+      "labelHint": "Kontroller produktnavn og merking på antennen.",
+      "identification": [
+        "Produktnavnet Firing Line Link Antenna er hovedidentifikatoren."
+      ],
+      "systemRole": "Linkantenne plassert ved firing line.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "target-line-link-antenna"
+      ],
+      "demo": false,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "monitor-antenna",
+      "name": "Monitor Antenna",
+      "itemNumber": "",
+      "category": "network",
+      "categoryLabel": "Antenner og nettverk",
+      "family": "Monitor Antenna",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "summary": "Antenne for monitorforbindelse i eScore-anlegget.",
+      "features": [
+        "Monitor antenna",
+        "Network"
+      ],
+      "antennaData": {
+        "type": "monitor",
+        "installationArea": null
+      },
+      "icon": "fas fa-wifi",
+      "image": "images/antennas/monitor-antenna.webp",
+      "imageAlt": "Produktbilde av Monitor Antenna",
+      "labelHint": "Kontroller produktnavn og merking på antennen.",
+      "identification": [
+        "Produktnavnet Monitor Antenna er hovedidentifikatoren."
+      ],
+      "systemRole": "Oppretter nettverksforbindelse for monitorer.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "ehub"
+      ],
+      "demo": false,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "u7e",
+      "name": "U7E",
+      "itemNumber": "",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "U-skive",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Akustisk U-skive i eScore-produktfamilien.",
+      "features": [
+        "U-skive",
+        "Utendørs",
+        "Rifle"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "icon": "fas fa-bullseye",
+      "image": "images/targets/Generic Marine Front.webp",
+      "imageAlt": "Produktbilde av U7E",
+      "labelHint": "Se etter produktnavnet U7E på skivens merkelapp.",
+      "identification": [
+        "Produktnavnet U7E er hovedidentifikatoren."
+      ],
+      "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [],
+      "dataStatus": "metadata-from-range-table",
+      "demo": false,
+      "technology": "acoustic",
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": false,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "caliberRangeRestrictions": [],
+      "range": {
+        "unit": "m",
+        "min": 100,
+        "max": 200
+      },
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1000,
+        "height": 1200
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "moving-target-carriage-standard",
+      "name": "Vogn/kjelke for løpende skive - standard",
+      "family": "Løpende skive",
+      "summary": "Standard vogn/kjelke for løpende elg, hjort og andre bevegelige skiver. Slepes med kabler og trinser.",
+      "features": [
+        "Løpende skive",
+        "Kabel og trinser",
+        "Standard utførelse"
+      ],
+      "icon": "fas fa-dolly-flatbed",
+      "image": "images/misc/moving-target-carriage-standard.webp",
+      "imageAlt": "Demoillustrasjon av standard vogn eller kjelke for løpende skive",
+      "labelHint": "Kontroller typebetegnelse og merking på vognen eller kjelken.",
+      "identification": [
+        "Brukes som bevegelig understell for løpende skiver.",
+        "Standardutgaven skilles fra den kraftigere utgaven ved produktmerking og konstruksjon."
+      ],
+      "systemRole": "Bærer skiven og beveges sideveis ved hjelp av slepekabler og trinser.",
+      "related": [
+        "moving-target-carriage-heavy-duty",
+        "moving-target-small"
+      ],
+      "movingTargetData": {
+        "duty": "standard",
+        "drive": "cable-and-pulley"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "moving-target-carriage-heavy-duty",
+      "name": "Vogn/kjelke for løpende skive - kraftig",
+      "family": "Løpende skive",
+      "summary": "Kraftigere vogn/kjelke for løpende elg, hjort og andre bevegelige skiver. Slepes med kabler og trinser.",
+      "features": [
+        "Løpende skive",
+        "Kabel og trinser",
+        "Kraftig utførelse"
+      ],
+      "icon": "fas fa-truck-loading",
+      "image": "images/misc/moving-target-carriage-heavy-duty.webp",
+      "imageAlt": "Demoillustrasjon av kraftig vogn eller kjelke for løpende skive",
+      "labelHint": "Kontroller typebetegnelse og merking på vognen eller kjelken.",
+      "identification": [
+        "Brukes som bevegelig understell for løpende skiver.",
+        "Dette er den kraftigere av de to vogn- og kjelkevariantene."
+      ],
+      "systemRole": "Bærer skiven og beveges sideveis ved hjelp av slepekabler og trinser i mer krevende oppsett.",
+      "related": [
+        "moving-target-carriage-standard",
+        "moving-target-large"
+      ],
+      "movingTargetData": {
+        "duty": "heavy-duty",
+        "drive": "cable-and-pulley"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "target-cable-amphenol",
+      "name": "Skivekabel med Amphenol-kontakter",
+      "family": "Skivekabel",
+      "summary": "Skivekabel med Amphenol-kontakter, tilgjengelig i faste standardlengder.",
+      "features": [
+        "Amphenol",
+        "Skivekabel",
+        "1-15 m"
+      ],
+      "icon": "fas fa-plug",
+      "image": "images/misc/target-cable-amphenol.webp",
+      "imageAlt": "Demoillustrasjon av skivekabel med Amphenol-kontakter",
+      "labelHint": "Kontroller kontakttype og kabellengde på merkingen.",
+      "identification": [
+        "Har Amphenol-kontakter.",
+        "Velg riktig standardlengde for installasjonen."
+      ],
+      "systemRole": "Forbinder skiveutstyr i eScore-installasjonen.",
+      "related": [
+        "oi-cable-amphenol",
+        "target-cable-m23"
+      ],
+      "variants": [
+        {
+          "id": "1m",
+          "label": "1 m",
+          "length": {
+            "value": 1,
+            "unit": "m"
+          }
+        },
+        {
+          "id": "2-5m",
+          "label": "2,5 m",
+          "length": {
+            "value": 2.5,
+            "unit": "m"
+          }
+        },
+        {
+          "id": "5m",
+          "label": "5 m",
+          "length": {
+            "value": 5,
+            "unit": "m"
+          }
+        },
+        {
+          "id": "10m",
+          "label": "10 m",
+          "length": {
+            "value": 10,
+            "unit": "m"
+          }
+        },
+        {
+          "id": "15m",
+          "label": "15 m",
+          "length": {
+            "value": 15,
+            "unit": "m"
+          }
+        }
+      ],
+      "cableData": {
+        "purpose": "target",
+        "connector": "Amphenol",
+        "standardLengths": [
+          1,
+          2.5,
+          5,
+          10,
+          15
+        ],
+        "lengthUnit": "m",
+        "robustness": "standard"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "oi-cable-amphenol",
+      "name": "OI-kabel med Amphenol-kontakter",
+      "family": "OI-kabel",
+      "summary": "OI-kabel med Amphenol-kontakter for tilkobling i eScore-anlegget.",
+      "features": [
+        "Amphenol",
+        "OI-kabel",
+        "Kablet forbindelse"
+      ],
+      "icon": "fas fa-project-diagram",
+      "image": "images/misc/oi-cable-amphenol.webp",
+      "imageAlt": "Demoillustrasjon av OI-kabel med Amphenol-kontakter",
+      "labelHint": "Kontroller OI-betegnelse og kontakttype på kabelmerkingen.",
+      "identification": [
+        "Har Amphenol-kontakter og er merket som OI-kabel."
+      ],
+      "systemRole": "Kablet forbindelse for OI-utstyr i eScore-installasjonen.",
+      "related": [
+        "target-cable-amphenol",
+        "oi-cable-m23"
+      ],
+      "cableData": {
+        "purpose": "oi",
+        "connector": "Amphenol",
+        "robustness": "standard"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "target-cable-m23",
+      "name": "Skivekabel med M23-kontakt",
+      "family": "Skivekabel",
+      "summary": "Robust skivekabel med M23-kontakt, laget for installasjoner med høyere krav til mekanisk styrke.",
+      "features": [
+        "M23",
+        "Skivekabel",
+        "Militærstandard"
+      ],
+      "icon": "fas fa-shield-alt",
+      "image": "images/misc/target-cable-m23.webp",
+      "imageAlt": "Demoillustrasjon av robust skivekabel med M23-kontakt",
+      "labelHint": "Kontroller M23-kontakten og kabelmerkingen.",
+      "identification": [
+        "Har M23-kontakt og mer robust utførelse enn standardkabelen."
+      ],
+      "systemRole": "Robust kablet forbindelse for skiveutstyr i krevende installasjoner.",
+      "related": [
+        "target-cable-amphenol",
+        "oi-cable-m23"
+      ],
+      "cableData": {
+        "purpose": "target",
+        "connector": "M23",
+        "robustness": "military-standard"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "accessories",
+      "categoryLabel": "Tilbehør",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "oi-cable-m23",
+      "name": "OI-kabel med M23-kontakt",
+      "family": "OI-kabel",
+      "summary": "Robust OI-kabel med M23-kontakt for installasjoner med høyere krav til mekanisk styrke.",
+      "features": [
+        "M23",
+        "OI-kabel",
+        "Militærstandard"
+      ],
+      "icon": "fas fa-shield-alt",
+      "image": "images/misc/oi-cable-m23.webp",
+      "imageAlt": "Demoillustrasjon av robust OI-kabel med M23-kontakt",
+      "labelHint": "Kontroller M23-kontakten og OI-merkingen.",
+      "identification": [
+        "Har M23-kontakt og er merket som OI-kabel."
+      ],
+      "systemRole": "Robust kablet forbindelse for OI-utstyr i krevende installasjoner.",
+      "related": [
+        "oi-cable-amphenol",
+        "target-cable-m23"
+      ],
+      "cableData": {
+        "purpose": "oi",
+        "connector": "M23",
+        "robustness": "military-standard"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "monitors",
+      "categoryLabel": "Monitorer",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "monitor-rugged-wireless",
+      "name": "Rugged",
+      "family": "Monitor",
+      "summary": "Trådløs rugged monitor for bruk i eScore-anlegget.",
+      "features": [
+        "Trådløs",
+        "Rugged",
+        "Monitor"
+      ],
+      "icon": "fas fa-tablet-alt",
+      "image": "images/misc/monitor-rugged-wireless.webp",
+      "imageAlt": "Demoillustrasjon av trådløs Rugged-monitor",
+      "labelHint": "Kontroller navnet Rugged på produktmerkingen.",
+      "identification": [
+        "Trådløs monitor med produktnavnet Rugged."
+      ],
+      "systemRole": "Viser skiveresultat og brukergrensesnitt via trådløs forbindelse.",
+      "related": [
+        "monitor-semi-rugged-wireless",
+        "wired-monitor"
+      ],
+      "monitorData": {
+        "connection": "wireless",
+        "ruggedness": "rugged"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "monitors",
+      "categoryLabel": "Monitorer",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "monitor-semi-rugged-wireless",
+      "name": "Semi Rugged",
+      "family": "Monitor",
+      "summary": "Trådløs semi-rugged monitor for bruk i eScore-anlegget.",
+      "features": [
+        "Trådløs",
+        "Semi rugged",
+        "Monitor"
+      ],
+      "icon": "fas fa-tablet-alt",
+      "image": "images/misc/monitor-semi-rugged-wireless.webp",
+      "imageAlt": "Demoillustrasjon av trådløs Semi Rugged-monitor",
+      "labelHint": "Kontroller navnet Semi Rugged på produktmerkingen.",
+      "identification": [
+        "Trådløs monitor med produktnavnet Semi Rugged."
+      ],
+      "systemRole": "Viser skiveresultat og brukergrensesnitt via trådløs forbindelse.",
+      "related": [
+        "monitor-rugged-wireless",
+        "wired-monitor"
+      ],
+      "monitorData": {
+        "connection": "wireless",
+        "ruggedness": "semi-rugged"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "category": "monitors",
+      "categoryLabel": "Monitorer",
+      "environment": [
+        "indoor",
+        "outdoor"
+      ],
+      "use": [],
+      "detailsUrl": "",
+      "documents": [],
+      "itemNumber": "",
+      "dataStatus": "metadata-incomplete",
+      "demo": true,
+      "imageStatus": "demo",
+      "id": "wired-monitor",
+      "name": "Kablet monitor",
+      "family": "Monitor",
+      "summary": "Kablet monitor for fast nettverkstilkobling i eScore-anlegget. Endelige modellvarianter kan legges inn senere.",
+      "features": [
+        "Kablet",
+        "Fast nettverk",
+        "Monitor"
+      ],
+      "icon": "fas fa-desktop",
+      "image": "images/misc/wired-monitor.webp",
+      "imageAlt": "Demoillustrasjon av kablet monitor",
+      "labelHint": "Kontroller modellnavn og nettverkstilkobling på produktmerkingen.",
+      "identification": [
+        "Kobles til nettverket med kabel i stedet for trådløs forbindelse."
+      ],
+      "systemRole": "Viser skiveresultat og brukergrensesnitt via fast kablet nettverk.",
+      "related": [
+        "monitor-rugged-wireless",
+        "monitor-semi-rugged-wireless"
+      ],
+      "monitorData": {
+        "connection": "wired",
+        "ruggedness": null
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [],
+      "compositionNote": ""
+    },
+    {
+      "id": "moving-target-small",
+      "name": "Moving Target – Small",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "Moving Target",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Komplett Moving Target-oppsett med standard vogn/kjelke og H1E-skive.",
+      "features": [
+        "Moving Target",
+        "Small",
+        "Rifle",
+        "Komplett løsning"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": true,
+          "bigBore": true,
+          "caliber50": false
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-running",
+      "image": "images/misc/moving-target-carriage-standard.webp",
+      "imageAlt": "Moving Target Small med standard vogn/kjelke",
+      "labelHint": "Identifiser skiven på merkelappen og kontroller at vognen er standardvarianten.",
+      "identification": [
+        "Skiven i dette eksempeloppsettet er H1E.",
+        "Vognen er standardvarianten for løpende skive."
+      ],
+      "systemRole": "Komplett bevegelig skiveoppsett der en elektronisk skive er montert på en kabel- og trinsedrevet vogn/kjelke.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "moving-target-carriage-standard",
+        "h1e"
+      ],
+      "dataStatus": "example-composition",
+      "demo": true,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 100,
+        "max": 200
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [
+        {
+          "weapon": "rifle",
+          "caliber": "smallBore",
+          "recommendedMaxRange": 100,
+          "unit": "m",
+          "note": "Only recommended for small bore up to 100 m."
+        }
+      ],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 900,
+        "height": 900
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "movingTargetData": {
+        "size": "small",
+        "carriageId": "moving-target-carriage-standard",
+        "targetId": "h1e"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [
+        {
+          "productId": "moving-target-carriage-standard",
+          "label": "Vogn/kjelke for løpende skive - standard",
+          "quantity": 1
+        },
+        {
+          "productId": "h1e",
+          "label": "H1E",
+          "quantity": 1
+        }
+      ],
+      "compositionNote": "Komplett Moving Target-oppsett bestående av én standard vogn/kjelke og én H1E-skive."
+    },
+    {
+      "id": "moving-target-large",
+      "name": "Moving Target – Large",
+      "category": "targets",
+      "categoryLabel": "Skiver",
+      "family": "Moving Target",
+      "environment": [
+        "outdoor"
+      ],
+      "use": [
+        "rifle"
+      ],
+      "summary": "Komplett Moving Target-oppsett med kraftig vogn/kjelke og U4H-skive.",
+      "features": [
+        "Moving Target",
+        "Large",
+        "Rifle",
+        "Komplett løsning"
+      ],
+      "physicalDimensions": {
+        "unit": "mm",
+        "width": null,
+        "height": null,
+        "depth": null
+      },
+      "calibers": {
+        "air": false,
+        "rifle": {
+          "smallBore": false,
+          "bigBore": true,
+          "caliber50": true
+        },
+        "pistol": {
+          "smallBore": false,
+          "bigBore": false
+        }
+      },
+      "icon": "fas fa-running",
+      "image": "images/misc/moving-target-carriage-heavy-duty.webp",
+      "imageAlt": "Moving Target Large med kraftig vogn/kjelke",
+      "labelHint": "Identifiser skiven på merkelappen og kontroller at vognen er den kraftige varianten.",
+      "identification": [
+        "Skiven i dette eksempeloppsettet er U4H.",
+        "Vognen er den kraftige varianten for løpende skive."
+      ],
+      "systemRole": "Komplett bevegelig skiveoppsett der en større elektronisk skive er montert på en kraftig kabel- og trinsedrevet vogn/kjelke.",
+      "detailsUrl": "",
+      "documents": [],
+      "related": [
+        "moving-target-carriage-heavy-duty",
+        "u4h"
+      ],
+      "dataStatus": "example-composition",
+      "demo": true,
+      "itemNumber": "",
+      "range": {
+        "unit": "m",
+        "min": 300,
+        "max": 1000
+      },
+      "technology": "acoustic",
+      "caliberRangeRestrictions": [],
+      "detectionArea": {
+        "unit": "mm",
+        "width": 1600,
+        "height": 1600
+      },
+      "modelYear": null,
+      "imageStatus": "demo",
+      "movingTargetData": {
+        "size": "large",
+        "carriageId": "moving-target-carriage-heavy-duty",
+        "targetId": "u4h"
+      },
+      "compositionLabel": "Består av",
+      "consistsOf": [
+        {
+          "productId": "moving-target-carriage-heavy-duty",
+          "label": "Vogn/kjelke for løpende skive - kraftig",
+          "quantity": 1
+        },
+        {
+          "productId": "u4h",
+          "label": "U4H",
+          "quantity": 1
+        }
+      ],
+      "compositionNote": "Komplett Moving Target-oppsett bestående av én kraftig vogn/kjelke og én U4H-skive."
+    }
+  ]
+}
