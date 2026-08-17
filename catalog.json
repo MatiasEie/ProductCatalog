@@ -90,8 +90,8 @@
         "Kontroller varenummer og eventuell variant mot merkingen på produktet."
       ],
       "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
-      "detailsUrl": "",
-      "documents": [https://docs.kongsbergtargets.com/no_NO/skiver/h1e-escore-target-manual],
+      "detailsUrl": "https://docs.kongsbergtargets.com/no_NO/skiver/h1e-escore-target-manual",
+      "documents": [],
       "related": [],
       "dataStatus": "metadata-from-2026-sales-sheet",
       "demo": false,
