@@ -333,7 +333,7 @@
         "Kontroller varenummer og eventuell variant mot merkingen på produktet."
       ],
       "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
-      "detailsUrl": "",
+      "detailsUrl": "https://docs.kongsbergtargets.com/no_NO/skiver/h4d-escore-target-manual",
       "documents": [],
       "related": [],
       "dataStatus": "metadata-from-range-table",
@@ -524,7 +524,7 @@
         "Kontroller varenummer og eventuell variant mot merkingen på produktet."
       ],
       "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
-      "detailsUrl": "",
+      "detailsUrl": "https://docs.kongsbergtargets.com/no_NO/skiver/escore-opticscore-target-manual",
       "documents": [],
       "related": [],
       "dataStatus": "metadata-from-range-table",
@@ -1081,7 +1081,7 @@
         "Produktnavnet U7E er hovedidentifikatoren."
       ],
       "systemRole": "Registrerer treff ved skiven og inngår i eScore-systemet.",
-      "detailsUrl": "",
+      "detailsUrl": "https://docs.kongsbergtargets.com/no_NO/skiver/u7e-escore-target-manual",
       "documents": [],
       "related": [],
       "dataStatus": "metadata-from-2026-sales-sheet",
